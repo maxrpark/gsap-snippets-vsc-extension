@@ -4,7 +4,7 @@
   "description": "Quick snippets for GreenSock",
   "version": "1.0.0",
   "publisher": "MaxCode",
-  "icon": "image/logo.png",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.70.0"
   },
