@@ -32,7 +32,7 @@
     "body": [
       "let ${2:mm} = gsap.matchMedia()",
       "${2:mm}.add(\"(${3:min-width}: ${4:800px})\", () => {",
-      "  ${animation}",
+      "  ${5:animation}",
       "});"
 
     ],
@@ -42,9 +42,8 @@
     "prefix": "gmaad",
     "body": [
       "${1:mm}.add(\"(${2:min-width}: ${3:800px})\", () => {",
-      "  ${animation}",
+      "  ${5:animation}",
       "});"
-
     ],
     "description": "Gsap add to media"
   }

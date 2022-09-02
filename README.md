@@ -118,4 +118,5 @@ The snippets are is inspired by [GreenSock's](https://greensock.com/) documentat
 | `gimpprd`     | import and register plugin from                     |
 
 ## Happy tweening!
+
 # gsap-snippets-vsc-extension

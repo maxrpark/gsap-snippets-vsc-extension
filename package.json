@@ -53,5 +53,11 @@
         "path": "./snippets/gsap-beyond-the-basic.json"
       }
     ]
-  }
+  },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/maxrpark/gsap-snippets-vsc-extension.git"
+    },
+    "homepage": "https://github.com/maxrpark/gsap-snippets-vsc-extension/blob/main/README.md"
+  
 }
