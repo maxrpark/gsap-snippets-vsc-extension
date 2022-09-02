@@ -1,0 +1,44 @@
+{
+  "gsap to tween ": {
+    "prefix": "gto",
+    "body": ["gsap.to(\"${1:selector}\", {${2:toVars}});"],
+    "description": "The most common type of animation is a to() tween because it allows you to define the destination values."
+  },
+  "gsap from tween ": {
+    "prefix": "gfrom",
+    "body": ["gsap.from(\"${1:selector}\", {${2:fromVars}});"],
+    "description": "Think of a gsap.from() like a backwards tween where you define where the values should START."
+  },
+  "gsap fromTo tween ": {
+    "prefix": "gfromTo",
+    "body": [
+      "gsap.fromTo(",
+      "   \"${1:selector}\",",
+      "     {${2:fromVars}},",
+      "     {${3:toVars}}",
+      ");"
+    ],
+    "description": "\"fromTo\" tween (define both start and end values)"
+  },
+  "gsap set ": {
+    "prefix": "gset",
+    "body": ["gsap.set(\"${1:selector}\", {${2:vars}});"],
+    "description": "Set values immediately (no animation)"
+  },
+  "gsap timeline ": {
+    "prefix": "gtl",
+    "body": [
+      "let ${1:tl} = gsap.timeline({${2:vars}});",
+      "${1:tl}.${3:to}(\"${4:selector}\", {${5:vars}})",
+      "       .${6:to}(\"${7:selector}\", {${8:toVars}})"
+    ],
+    "description": "Create gsap timeline"
+  },
+  "add new tween to timeline": {
+    "prefix": "gtt",
+    "body": [
+      ".${6:to}(\"${7:selector}\", {${8:toVars}})"
+    ],
+    "description": "add new tween to timeline"
+  }
+}

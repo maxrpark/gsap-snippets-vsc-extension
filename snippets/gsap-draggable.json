@@ -1,0 +1,28 @@
+{
+  "gsap create draggable ": {
+    "prefix": "gcd",
+    "body": [
+      "Draggable.create(\"${1:selector}\", {",
+      "   type:\"${2:y}\",",
+      "   bounds: \"${3:#container}\",",
+      "   inertia: false,",
+      "   onClick: function() {",
+      "       console.log(\"you clicked me}\");",
+      "   },",
+      "   onPress: function() {",
+      "       console.log(\"pressed}\");",
+      "   },",
+      "   onDrag: function() {",
+      "       console.log(\"dragging}\");",
+      "   },",
+      "   onRelease: function() {",
+      "       console.log(\"dragging release}\");",
+      "   },",
+      "   onDragEnd: () => {",
+      "       console.log(\"drag end}\");",
+      "   }",
+      "});"
+    ],
+    "description": "Create gsap draggable with callbacks"
+  }
+}

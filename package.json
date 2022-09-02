@@ -1,0 +1,57 @@
+{
+  "name": "gsap-greensock-snippets",
+  "displayName": "Gsap GreenSock Snippets",
+  "description": "Quick snippets for GreenSock",
+  "version": "1.0.0",
+  "publisher": "MaxCode",
+  "icon": "image/logo.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "GSAP",
+    "gsap snippets",
+    "animation",
+    "GreenSock"
+  ],
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/gsap-basics.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/gsap-imports.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/gsap-config.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/gsap-utility-methods.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/gsap-scrollTrigger.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/gsap-flip.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/gsap-draggable.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/gsap-beyond-the-basic.json"
+      }
+    ]
+  }
+}

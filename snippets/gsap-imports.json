@@ -1,0 +1,58 @@
+{
+  "Full import ESM": {
+    "prefix": "gimpfull",
+    "body": [
+      "import { gsap } from \"gsap\";",
+      "import { ${1:Plugin} } from \"gsap/${1:Plugin}\";",
+      "gsap.registerPlugin(${1:Plugin});"
+    ],
+    "description": "Import and register GSAP (ES Modules)"
+  },
+  "import plugin ESM ": {
+    "prefix": "gimpp",
+    "body": ["import { ${1:Plugin} } from \"gsap/${1:Plugin}\";"],
+    "description": "import plugin ESM"
+  },
+  "import gsap ESM ": {
+    "prefix": "gimp",
+    "body": ["import { gsap } from \"gsap\";"],
+    "description": "import { gsap } from \"gsap\";"
+  },
+
+  "import and register plugin ESM ": {
+    "prefix": "gimppr",
+    "body": [
+      "import { ${1:Plugin} } from \"gsap/${1:Plugin}\";",
+      "gsap.registerPlugin(${1:Plugin});"
+    ],
+    "description": "import and register plugin ESM"
+  },
+
+  "import gsap UMD/CommonJS": {
+    "prefix": "gimpdis",
+    "body": ["import { gsap } from \"gsap/dist/gsap\";"],
+    "description": "import gsap UMD/CommonJS;"
+  },
+  "Full import UMD/CommonJS": {
+    "prefix": "gimpfulldis",
+    "body": [
+      "import { gsap } from \"gsap/dist/gsap\";",
+      "import { ${1:Plugin} } from \"gsap/dist/${1:Plugin}\";",
+      "gsap.registerPlugin(${1:Plugin});"
+    ],
+    "description": "Import and register GSAP (ES Modules)"
+  },
+  "import and register plugin UMD/CommonJS": {
+    "prefix": "gimpprd",
+    "body": [
+      "import { ${1:Plugin} } from \"gsap/dist/${1:Plugin}\";",
+      "gsap.registerPlugin(${1:Plugin});"
+    ],
+    "description": "import and register plugin UMD/CommonJS"
+  },
+  "import plugin UMD/CommonJS": {
+    "prefix": "gimppd",
+    "body": ["import { ${1:Plugin} } from \"gsap/dist/${1:Plugin}\";"],
+    "description": "import plugin UMD/CommonJS"
+  }
+}

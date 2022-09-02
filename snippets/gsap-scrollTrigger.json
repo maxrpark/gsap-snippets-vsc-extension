@@ -1,0 +1,94 @@
+{
+  "scrollTrigger timeline": {
+    "prefix": "gstt",
+    "body": [
+      "let ${1:tl} = gsap.timeline({",
+      "    scrollTrigger: {",
+      "        trigger: \"${2:trigger}\",",
+      "        pin: ${3:true},",
+      "        start: \"${4:top} ${5:center}\",",
+      "        end: \"${6:+=500}\",",
+      "        scrub: ${7:1},",
+      "        pin: ${8:true},",
+      "        pinSpacing: ${9:true},",
+      "        markers: ${10:true},",
+      "        toggleActions: \"${11:play} ${12:pause} ${13:resume} ${14:reset}\",",
+      "    }",
+      "});",
+      "  ",
+      "${1:tl}.to(\"${15:selector}\", {${16:toVars}})",
+      "             .to(\"${17:selector}\", {${18:toVars}})"
+    ],
+    "description": "Create a timeline with a scrollTrigger"
+  },
+  "scrollTrigger timeline callbacks": {
+    "prefix": "gsttcb",
+    "body": [
+      "let ${1:tl} = gsap.timeline({",
+      "    scrollTrigger: {",
+      "        trigger: \"${2:trigger}\",",
+      "        pin: ${3:true},",
+      "        start: \"${4:top} ${5:center}\",",
+      "        end: \"${6:+=500}\",",
+      "        scrub: ${7:1},",
+      "        pin: ${8:true},",
+      "        pinSpacing: ${9:true},",
+      "        markers: ${10:true},",
+      "        toggleActions: \"${11:play} ${12:pause} ${13:resume} ${14:reset}\",",
+      "        // onEnter: () =>,",
+      "        // onLeave: () => ,",
+      "        // onEnterBack: () => ,",
+      "        // onLeaveBack: () => ,",
+      "        // onRefresh: () => ,",
+      "        // onUpdate: () => ,",
+      "    }",
+      "});",
+      "  ",
+      "${1:tl}.to(\"${15:selector}\", {${16:toVars}})",
+      "             .to(\"${17:selector}\", {${18:toVars}})"
+    ],
+    "description": "Create a timeline with a scrollTrigger with callback functions"
+  },
+  "scrollTrigger create": {
+    "prefix": "gstc",
+    "body": [
+      "ScrollTrigger.create({",
+      "        trigger: \"${2:trigger}\",",
+      "        pin: ${3:true},",
+      "        start: \"${4:top} ${5:center}\",",
+      "        end: \"${6:+=500}\",",
+      "        scrub: ${7:1},",
+      "        markers: ${8:true},",
+      "        animation: ${9:animation},",
+      "        toggleActions: \"${10:play} ${11:pause} ${12:resume} ${13:reset}\",",
+      "        pin: ${15:true},",
+      "        pinSpacing: ${16:true},",
+      "})"
+    ],
+    "description": "Create Standalone ScrollTrigger"
+  },
+  "scrollTrigger create with callbacks": {
+    "prefix": "gstccb",
+    "body": [
+      "ScrollTrigger.create({",
+      "        trigger: \"${2:trigger}\",",
+      "        pin: ${3:true},",
+      "        start: \"${4:top} ${5:center}\",",
+      "        end: \"${6:+=500}\",",
+      "        scrub: ${7:1},",
+      "        markers: ${8:true},",
+      "        animation: ${9:animation},",
+      "        toggleActions: \"${10:play} ${11:pause} ${12:resume} ${13:reset}\",",
+      "        pin: ${15:true},",
+      "        pinSpacing: ${16:true},",
+      "        // onEnter: () =>,",
+      "        // onLeave: () => ,",
+      "        // onEnterBack: () => ,",
+      "        // onLeaveBack: () => ,",
+      "        // onRefresh: () => ,",
+      "        // onUpdate: () => ,",
+      "})"
+    ],
+    "description": "Create Standalone ScrollTrigger with callbacks"
+  }
+}

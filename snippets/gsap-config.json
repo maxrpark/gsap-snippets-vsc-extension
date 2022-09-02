@@ -1,0 +1,37 @@
+{
+  "gsap default ": {
+    "prefix": "gdefault",
+    "body": ["gsap.defaults({${1:vars}});"],
+    "description": "GSAP's global tween defaults"
+  },
+  "gsap register effect ": {
+    "prefix": "greff",
+    "body": [
+      "gsap.registerEffect({",
+      "    name: \"${1:name}\",",
+      "    extendTimeline: true,",
+      "    defaults:{${2:vars}},",
+      "    effect: (targets, config) => {",
+      "       let tl = gsap.timeline()",
+      "       tl.${3:to}(targets, {${4:vars}})",
+      "         .${5:to}(targets, {${6:vars}})",
+      "       return tl",
+      "   },",
+      "});"
+    ],
+    "description": "Register costume effect"
+  },
+  "gsap use costume effect ": {
+    "prefix": "guce",
+    "body": ["gsap.effects.${1:effectName}(\"${2:selector}\");"],
+    "description": "Use costume effect"
+  },
+  "gsap use costume in a timeline ": {
+    "prefix": "gucetl",
+    "body": [
+      "const ${1:name} = gsap.timeline()",
+      "${1:name}.${2:effectName}(\"${3:selector}\", { ${4:vars} })"
+    ],
+    "description": "Use costume effect in a timeline"
+  }
+}

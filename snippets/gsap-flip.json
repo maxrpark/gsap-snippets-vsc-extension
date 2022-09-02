@@ -1,0 +1,42 @@
+{
+  "gsap flip get state": {
+    "prefix": "ggs",
+    "body": ["const ${1:state} = Flip.getState(\"${2:selector}\");"],
+    "description": "returns a state object containing data about the elements' current position/size/rotation in the viewport"
+  },
+  "gsap flip from ": {
+    "prefix": "gff",
+    "body": [ 
+      "Flip.from(${1:state}, {", 
+      "   ${2:fromVars}", 
+      "});"],
+    "description": "Animate from the previous state to the current one"
+  },
+  "gsap flip callbacks ": {
+    "prefix": "gffcb",
+    "body": [
+      "Flip.from(${1:state}, {",
+      "  duration: ${2:1},",
+      "  ease: \"${3:power1.inOut}\",",
+      "  absolute: ${4:true},",
+      "  scale: ${5:true},",
+      "  onEnter: (elements) => {",
+      "    {",
+      "       gsap.fromTo(",
+      "          elements,",
+      "          { ${6:fromVars} },",
+      "          { ${7:toVars} }",
+      "        );",
+      "    }",
+      "   },",
+      "   onLeave: (elements) =>",
+      "      gsap.fromTo(",
+      "        elements,",
+      "          { ${8:fromVars} },",
+      "          { ${9:toVars} }",
+      "     ),",
+      "});"
+    ],
+    "description": "Flip from with callbacks"
+  }
+}
