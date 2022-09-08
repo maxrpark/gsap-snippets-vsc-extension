@@ -1,15 +1,13 @@
 {
   "gsap create context": {
     "prefix": "gcctx",
-    "body": [
-      "let ${1:ctx} = gsap.context(() => {",
-        "${2:animations}",
-      "});"
-    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": ["let ${1:ctx} = gsap.context(() => {", "${2:animations}", "});"],
     "description": "Gsap create Context"
   },
   "gsap create context and add": {
     "prefix": "gcctxadd",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "let ${1:ctx} = gsap.context(() => {});",
       "${1:ctx}.add(()=>{",
@@ -20,26 +18,24 @@
   },
   "gsap add to context": {
     "prefix": "gaddctx",
-    "body": [
-      "${1:ctx}.add(()=>{",
-      "${2:animation}",
-      "})"
-    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": ["${1:ctx}.add(()=>{", "${2:animation}", "})"],
     "description": "Gsap add to media function"
   },
   "gsap create media": {
     "prefix": "gcm",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "let ${2:mm} = gsap.matchMedia()",
       "${2:mm}.add(\"(${3:min-width}: ${4:800px})\", () => {",
       "  ${5:animation}",
       "});"
-
     ],
     "description": "Gsap create media"
   },
   "gsap add media": {
     "prefix": "gmaad",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "${1:mm}.add(\"(${2:min-width}: ${3:800px})\", () => {",
       "  ${5:animation}",

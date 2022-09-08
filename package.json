@@ -2,7 +2,7 @@
   "name": "gsap-greensock-snippets",
   "displayName": "Gsap GreenSock Snippets",
   "description": "Quick snippets for GreenSock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "MaxCode",
   "icon": "images/logo.png",
   "engines": {
@@ -21,43 +21,43 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascript",
-        "path": "./snippets/gsap-basics.json"
+        "language": "",
+        "path": "./snippets/gsap-basics.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/gsap-imports.json"
+        "language": "",
+        "path": "./snippets/gsap-imports.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/gsap-config.json"
+        "language": "",
+        "path": "./snippets/gsap-config.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/gsap-utility-methods.json"
+        "language": "",
+        "path": "./snippets/gsap-utility-methods.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/gsap-scrollTrigger.json"
+        "language": "",
+        "path": "./snippets/gsap-scrollTrigger.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/gsap-flip.json"
+        "language": "",
+        "path": "./snippets/gsap-flip.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/gsap-draggable.json"
+        "language": "",
+        "path": "./snippets/gsap-draggable.code-snippets"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/gsap-beyond-the-basic.json"
+        "language": "",
+        "path": "./snippets/gsap-beyond-the-basic.code-snippets"
       }
     ]
   },
-      "repository": {
-        "type": "git",
-        "url": "https://github.com/maxrpark/gsap-snippets-vsc-extension.git"
-    },
-    "homepage": "https://github.com/maxrpark/gsap-snippets-vsc-extension/blob/main/README.md"
-  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxrpark/gsap-snippets-vsc-extension.git"
+  },
+  "homepage": "https://github.com/maxrpark/gsap-snippets-vsc-extension/blob/main/README.md"
+
 }

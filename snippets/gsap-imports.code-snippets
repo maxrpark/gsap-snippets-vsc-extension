@@ -1,6 +1,7 @@
 {
   "Full import ESM": {
     "prefix": "gimpfull",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "import { gsap } from \"gsap\";",
       "import { ${1:Plugin} } from \"gsap/${1:Plugin}\";",
@@ -10,17 +11,20 @@
   },
   "import plugin ESM ": {
     "prefix": "gimpp",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["import { ${1:Plugin} } from \"gsap/${1:Plugin}\";"],
     "description": "import plugin ESM"
   },
   "import gsap ESM ": {
     "prefix": "gimp",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["import { gsap } from \"gsap\";"],
     "description": "import { gsap } from \"gsap\";"
   },
 
   "import and register plugin ESM ": {
     "prefix": "gimppr",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "import { ${1:Plugin} } from \"gsap/${1:Plugin}\";",
       "gsap.registerPlugin(${1:Plugin});"
@@ -30,11 +34,13 @@
 
   "import gsap UMD/CommonJS": {
     "prefix": "gimpdis",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["import { gsap } from \"gsap/dist/gsap\";"],
     "description": "import gsap UMD/CommonJS;"
   },
   "Full import UMD/CommonJS": {
     "prefix": "gimpfulldis",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "import { gsap } from \"gsap/dist/gsap\";",
       "import { ${1:Plugin} } from \"gsap/dist/${1:Plugin}\";",
@@ -44,6 +50,7 @@
   },
   "import and register plugin UMD/CommonJS": {
     "prefix": "gimpprd",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "import { ${1:Plugin} } from \"gsap/dist/${1:Plugin}\";",
       "gsap.registerPlugin(${1:Plugin});"
@@ -52,6 +59,7 @@
   },
   "import plugin UMD/CommonJS": {
     "prefix": "gimppd",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["import { ${1:Plugin} } from \"gsap/dist/${1:Plugin}\";"],
     "description": "import plugin UMD/CommonJS"
   }

@@ -1,11 +1,13 @@
 {
   "gsap default ": {
     "prefix": "gdefault",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.defaults({${1:vars}});"],
     "description": "GSAP's global tween defaults"
   },
   "gsap register effect ": {
     "prefix": "greff",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "gsap.registerEffect({",
       "    name: \"${1:name}\",",
@@ -23,11 +25,13 @@
   },
   "gsap use costume effect ": {
     "prefix": "guce",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.effects.${1:effectName}(\"${2:selector}\");"],
     "description": "Use costume effect"
   },
   "gsap use costume in a timeline ": {
     "prefix": "gucetl",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "const ${1:name} = gsap.timeline()",
       "${1:name}.${2:effectName}(\"${3:selector}\", { ${4:vars} })"

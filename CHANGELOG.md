@@ -2,7 +2,9 @@
 
 All notable changes to the "GSAP GREENSOCK Snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.1] - 2022-09-08
+
+- Added support for ts and tsx files.
 
 ## [1.0.0] - 2022-09-03
 

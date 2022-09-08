@@ -1,6 +1,7 @@
 {
   "scrollTrigger timeline": {
     "prefix": "gstt",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "let ${1:tl} = gsap.timeline({",
       "    scrollTrigger: {",
@@ -23,6 +24,7 @@
   },
   "scrollTrigger timeline callbacks": {
     "prefix": "gsttcb",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "let ${1:tl} = gsap.timeline({",
       "    scrollTrigger: {",
@@ -51,6 +53,7 @@
   },
   "scrollTrigger create": {
     "prefix": "gstc",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "ScrollTrigger.create({",
       "        trigger: \"${2:trigger}\",",
@@ -69,6 +72,7 @@
   },
   "scrollTrigger create with callbacks": {
     "prefix": "gstccb",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "ScrollTrigger.create({",
       "        trigger: \"${2:trigger}\",",

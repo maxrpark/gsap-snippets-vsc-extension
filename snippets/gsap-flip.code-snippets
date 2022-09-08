@@ -1,19 +1,19 @@
 {
   "gsap flip get state": {
     "prefix": "ggs",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["const ${1:state} = Flip.getState(\"${2:selector}\");"],
     "description": "returns a state object containing data about the elements' current position/size/rotation in the viewport"
   },
   "gsap flip from ": {
     "prefix": "gff",
-    "body": [ 
-      "Flip.from(${1:state}, {", 
-      "   ${2:fromVars}", 
-      "});"],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": ["Flip.from(${1:state}, {", "   ${2:fromVars}", "});"],
     "description": "Animate from the previous state to the current one"
   },
   "gsap flip callbacks ": {
     "prefix": "gffcb",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "Flip.from(${1:state}, {",
       "  duration: ${2:1},",

@@ -1,21 +1,25 @@
 {
   "checkPrefix": {
     "prefix": "gprefix",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.checkPrefix(\"${1:property}\");"],
     "description": "Clamp value to range"
   },
   "clamp": {
     "prefix": "gclamp",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.clamp(${1:minimum},${2:maximum}, ${3:valueToClamp})"],
     "description": "Clamp value to range"
   },
   "distribute": {
     "prefix": "gdistribute",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.distribute(${1:vars})"],
     "description": "Distribute value among and array"
   },
   "interpolate": {
     "prefix": "ginterpolate",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "gsap.utils.interpolate(${1:startValue},${2:endValue}, ${3:progress})"
     ],
@@ -23,6 +27,7 @@
   },
   "mapRange": {
     "prefix": "gmapRange",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "gsap.utils.mapRange(${1:value},${2:value}, ${3:value},${4:value})"
     ],
@@ -30,6 +35,7 @@
   },
   "normalize": {
     "prefix": "gnormalize",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "gsap.utils.normalize(${1:minimum},${2:maximum}, ${3:valueToNormalize})"
     ],
@@ -37,11 +43,13 @@
   },
   "pipe": {
     "prefix": "gpipe",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.pipe(${1:func1},${2:func2}, ${3:func3})"],
     "description": "Sequence function calls"
   },
   "random number": {
     "prefix": "grandomnum",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "gsap.utils.random(${1:minimum},${2:maximum}, ${3:snapIncrement}, ${4:returnFunction})"
     ],
@@ -49,6 +57,7 @@
   },
   "random array": {
     "prefix": "grandomarray",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "gsap.utils.random([${1:value},${2:value}, ${3:value}, ${4:value}])"
     ],
@@ -56,41 +65,49 @@
   },
   "selector": {
     "prefix": "gselector",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.selector(${1:myElement});"],
     "description": "Get a scoped selector function"
   },
   "shuffle": {
     "prefix": "gshuffle",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.shuffle(${1:array});"],
     "description": "Shuffles an array in-place"
   },
   "snap": {
     "prefix": "gsnap",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.snap({${1:vars}});"],
     "description": "Snap a value to either increment or array"
   },
   "splitColor": {
     "prefix": "gsplitColor",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.splitColor(\"${1:red}\");"],
     "description": "Splits color into RGB array"
   },
   "toArray": {
     "prefix": "gtoArray",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.toArray(\"${1:selector}\");"],
     "description": "Convert array-like thing to array"
   },
   "unitize": {
     "prefix": "gunitize",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.unitize();"],
     "description": "Adds specified unit to function results"
   },
   "wrap": {
     "prefix": "gwrap",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.wrap(${1:vars});"],
     "description": "Place number in range, wrapping to start"
   },
   "wrapYoyo": {
     "prefix": "gwrapYoyo",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["gsap.utils.wrapYoyo(${1:vars});"],
     "description": "Place number in range, wrapping in reverse"
   }

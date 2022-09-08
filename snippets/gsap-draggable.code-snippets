@@ -1,6 +1,7 @@
 {
   "gsap create draggable ": {
     "prefix": "gcd",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "Draggable.create(\"${1:selector}\", {",
       "   type:\"${2:y}\",",
