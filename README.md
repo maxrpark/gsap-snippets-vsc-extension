@@ -2,11 +2,11 @@
 
 ## Preview
 
-<div align="center">
+
 
 ![Alt Text](images/gsap-greensock-snippets.gif)
 
-</div>
+
 
 ## Features
 
