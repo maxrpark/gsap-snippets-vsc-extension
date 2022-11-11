@@ -2,7 +2,7 @@
   "name": "gsap-greensock-snippets",
   "displayName": "Gsap GreenSock Snippets",
   "description": "Quick snippets for GreenSock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "MaxCode",
   "icon": "images/logo.png",
   "engines": {
