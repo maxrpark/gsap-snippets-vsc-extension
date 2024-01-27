@@ -1,0 +1,22 @@
+{
+  "useGSAP hook": {
+    "prefix": "gusegsap",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": ["useGSAP(() => {", "  ${1:// gsap code here...}", "})"],
+    "description": "Basic useGSAP hook"
+  },
+  "useGSAP contextSafe": {
+    "prefix": "gcontextSafe",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const ${1:container} = useRef()",
+      "",
+      "const { contextSafe } = useGSAP({ scope: ${1:selector} })",
+      "",
+      "const onClickGood = contextSafe(() => {",
+      "  ${2:// gsap code here...}",
+      "})"
+    ],
+    "description": "useGSAP contextSafe"
+  }
+}

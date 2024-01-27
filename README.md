@@ -2,11 +2,7 @@
 
 ## Preview
 
-
-
 ![Alt Text](images/gsap-greensock-snippets.gif)
-
-
 
 ## Features
 
@@ -87,15 +83,35 @@ The snippets are is inspired by [GreenSock's](https://greensock.com/) documentat
 | `gwrap`        | gsap.utils.gwrap()       |
 | `gwrapYoyo`    | gsap.utils.wrapYoyo()    |
 
-### Beyond the basic
+### GSAP
 
 | Snippet    | Purpose                              |
 | ---------- | ------------------------------------ |
 | `gcctx`    | create gsap context                  |
 | `gcctxadd` | create gsap context and add function |
 | `gaddtctx` | add to context                       |
-| `gcm`      | create gsap media                    |
-| `gmaad`    | add media                            |
+
+### GSAP Media
+
+| Snippet | Purpose                           |
+| ------- | --------------------------------- |
+| `gcm`   | create gsap matchMedia            |
+| `gmwc`  | create matchMedia with conditions |
+| `gmaad` | add media                         |
+
+### useGSAP
+
+| Snippet        | Purpose             |
+| -------------- | ------------------- |
+| `gusegsap`     | Basic useGSAP hook  |
+| `gcontextsafe` | useGSAP contextSafe |
+
+### GSAP Observer
+
+| Snippet | Purpose                              |
+| ------- | ------------------------------------ |
+| `gob`   | create gsap observer                 |
+| `gobc`  | create gsap observer witch callbacks |
 
 ### Imports and Register
 

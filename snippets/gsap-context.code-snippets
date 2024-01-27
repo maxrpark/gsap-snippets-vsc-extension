@@ -21,26 +21,5 @@
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["${1:ctx}.add(()=>{", "${2:animation}", "})"],
     "description": "Gsap add to media function"
-  },
-  "gsap create media": {
-    "prefix": "gcm",
-    "scope": "typescript,typescriptreact,javascript,javascriptreact",
-    "body": [
-      "let ${2:mm} = gsap.matchMedia()",
-      "${2:mm}.add(\"(${3:min-width}: ${4:800px})\", () => {",
-      "  ${5:animation}",
-      "});"
-    ],
-    "description": "Gsap create media"
-  },
-  "gsap add media": {
-    "prefix": "gmaad",
-    "scope": "typescript,typescriptreact,javascript,javascriptreact",
-    "body": [
-      "${1:mm}.add(\"(${2:min-width}: ${3:800px})\", () => {",
-      "  ${5:animation}",
-      "});"
-    ],
-    "description": "Gsap add to media"
   }
 }

@@ -1,0 +1,49 @@
+{
+  "gsap create matchMedia": {
+    "prefix": "gcm",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "let ${2:mm} = gsap.matchMedia()",
+      "${2:mm}.add(\"(${3:min-width}: ${4:800px})\", () => {",
+      "  ${5:animation}",
+      "  return () => {}",
+      "});"
+    ],
+    "description": "Gsap create media"
+  },
+  "gsap add media": {
+    "prefix": "gmaad",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "${1:mm}.add(\"(${2:min-width}: ${3:800px})\", () => {",
+      "  ${5:animation}",
+      "  return () => {}",
+      "});"
+    ],
+    "description": "Gsap add to media"
+  },
+  "gsap matchMedia with conditions": {
+    "prefix": "gmwc",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "let mm = gsap.matchMedia()",
+      "breakPoint = \"${1:800px}\"",
+      "mm.add(",
+      "  {",
+      "    isDesktop: `(min-width: ${breakPoint }px)`,",
+      "    isMobile: `(max-width: ${breakPoint - 1}px)`,",
+      "    reduceMotion: \"(prefers-reduced-motion: reduce)\"",
+      "  },",
+      "  (context) => {",
+      "    let { isDesktop, isMobile, reduceMotion } = context.conditions",
+      "   // gsap.to(\".box\", {",
+      "   //   rotation: isDesktop ? 360 : 180, // spin further if desktop",
+      "   //   duration: reduceMotion ? 0 : 2, // skip to the end if prefers-reduced-motion",
+      "   // })",
+      "    return () => {}",
+      "  }",
+      ")"
+    ],
+    "description": "Gsap add to media"
+  }
+}

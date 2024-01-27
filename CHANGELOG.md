@@ -2,6 +2,12 @@
 
 All notable changes to the "GSAP GREENSOCK Snippets" extension will be documented in this file.
 
+## [1.0.3] - 2024-01-27
+
+- useGsap snippets
+- gsap observer snippets
+- Add media new snippet
+
 ## [1.0.2] - 2022-11-11
 
 - Removed repeated key (pin) in scrolltrigger's snippets.

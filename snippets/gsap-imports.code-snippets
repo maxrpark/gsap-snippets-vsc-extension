@@ -62,5 +62,11 @@
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["import { ${1:Plugin} } from \"gsap/dist/${1:Plugin}\";"],
     "description": "import plugin UMD/CommonJS"
+  },
+  "import useGSAP": {
+    "prefix": "giusegsap",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": ["import { useGSAP } from \"@gsap/react\""],
+    "description": "import the hook from the gsap React package"
   }
 }

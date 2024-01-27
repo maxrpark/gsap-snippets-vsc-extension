@@ -2,7 +2,7 @@
   "name": "gsap-greensock-snippets",
   "displayName": "Gsap GreenSock Snippets",
   "description": "Quick snippets for GreenSock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "MaxCode",
   "icon": "images/logo.png",
   "engines": {
@@ -50,7 +50,19 @@
       },
       {
         "language": "",
-        "path": "./snippets/gsap-beyond-the-basic.code-snippets"
+        "path": "./snippets/gsap-context.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-observer.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-media.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-use-gsap.code-snippets"
       }
     ]
   },
@@ -59,5 +71,4 @@
     "url": "https://github.com/maxrpark/gsap-snippets-vsc-extension.git"
   },
   "homepage": "https://github.com/maxrpark/gsap-snippets-vsc-extension/blob/main/README.md"
-
 }
