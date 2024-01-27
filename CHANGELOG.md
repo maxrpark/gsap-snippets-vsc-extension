@@ -2,6 +2,10 @@
 
 All notable changes to the "GSAP GREENSOCK Snippets" extension will be documented in this file.
 
+## [1.0.5] - 2024-01-27
+
+- Update readme
+
 ## [1.0.4] - 2024-01-27
 
 - gsafecontext dynamic function name
