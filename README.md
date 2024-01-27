@@ -83,7 +83,7 @@ The snippets are is inspired by [GreenSock's](https://greensock.com/) documentat
 | `gwrap`        | gsap.utils.gwrap()       |
 | `gwrapYoyo`    | gsap.utils.wrapYoyo()    |
 
-### GSAP
+### GSAP Context
 
 | Snippet    | Purpose                              |
 | ---------- | ------------------------------------ |
@@ -103,6 +103,7 @@ The snippets are is inspired by [GreenSock's](https://greensock.com/) documentat
 
 | Snippet        | Purpose             |
 | -------------- | ------------------- |
+| `giusegsap`    | import useGSAP      |
 | `gusegsap`     | Basic useGSAP hook  |
 | `gcontextsafe` | useGSAP contextSafe |
 
