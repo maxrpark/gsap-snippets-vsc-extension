@@ -13,8 +13,8 @@
       "",
       "const { contextSafe } = useGSAP({ scope: ${1:selector} })",
       "",
-      "const onClickGood = contextSafe(() => {",
-      "  ${2:// gsap code here...}",
+      "const ${2:handleClick} = contextSafe(() => {",
+      "  ${3:// gsap code here...}",
       "})"
     ],
     "description": "useGSAP contextSafe"
