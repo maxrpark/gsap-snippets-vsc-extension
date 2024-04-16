@@ -27,7 +27,7 @@
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "let mm = gsap.matchMedia()",
-      "breakPoint = \"${1:800px}\"",
+      "let breakPoint = ${1:800}",
       "mm.add(",
       "  {",
       "    isDesktop: `(min-width: ${breakPoint }px)`,",
@@ -44,6 +44,6 @@
       "  }",
       ")"
     ],
-    "description": "Gsap add to media"
+    "description": "GSAP matchMedia with conditions"
   }
 }
