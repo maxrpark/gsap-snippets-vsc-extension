@@ -33,7 +33,7 @@
     "prefix": "gtl",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
-      "let ${1:tl} = gsap.timeline({${2:vars}});",
+      "const ${1:tl} = gsap.timeline({${2:vars}});",
       "${1:tl}.${3:to}(\"${4:selector}\", {${5:vars}})",
       "       .${6:to}(\"${7:selector}\", {${8:toVars}})"
     ],

@@ -2,14 +2,14 @@
   "gsap create context": {
     "prefix": "gcctx",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
-    "body": ["let ${1:ctx} = gsap.context(() => {", "${2:animations}", "});"],
+    "body": ["const ${1:ctx} = gsap.context(() => {", "${2:animations}", "});"],
     "description": "Gsap create Context"
   },
   "gsap create context and add": {
     "prefix": "gcctxadd",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
-      "let ${1:ctx} = gsap.context(() => {});",
+      "const ${1:ctx} = gsap.context(() => {});",
       "${1:ctx}.add(()=>{",
       "${2:animation}",
       "})"

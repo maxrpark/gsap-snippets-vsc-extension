@@ -14,7 +14,7 @@
       "    extendTimeline: true,",
       "    defaults:{${2:vars}},",
       "    effect: (targets, config) => {",
-      "       let tl = gsap.timeline()",
+      "       const tl = gsap.timeline()",
       "       tl.${3:to}(targets, {${4:vars}})",
       "         .${5:to}(targets, {${6:vars}})",
       "       return tl",

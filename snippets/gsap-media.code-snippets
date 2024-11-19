@@ -3,7 +3,7 @@
     "prefix": "gcm",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
-      "let ${2:mm} = gsap.matchMedia()",
+      "const ${2:mm} = gsap.matchMedia()",
       "${2:mm}.add(\"(${3:min-width}: ${4:800px})\", () => {",
       "  ${5:animation}",
       "  return () => {}",
@@ -26,8 +26,8 @@
     "prefix": "gmwc",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
-      "let mm = gsap.matchMedia()",
-      "let breakPoint = ${1:800}",
+      "const mm = gsap.matchMedia()",
+      "const breakPoint = ${1:800}",
       "mm.add(",
       "  {",
       "    isDesktop: `(min-width: ${breakPoint }px)`,",
@@ -35,7 +35,7 @@
       "    reduceMotion: \"(prefers-reduced-motion: reduce)\"",
       "  },",
       "  (context) => {",
-      "    let { isDesktop, isMobile, reduceMotion } = context.conditions",
+      "    const { isDesktop, isMobile, reduceMotion } = context.conditions",
       "   // gsap.to(\".box\", {",
       "   //   rotation: isDesktop ? 360 : 180, // spin further if desktop",
       "   //   duration: reduceMotion ? 0 : 2, // skip to the end if prefers-reduced-motion",

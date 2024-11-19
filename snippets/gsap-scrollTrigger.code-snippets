@@ -3,7 +3,7 @@
     "prefix": "gstt",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
-      "let ${1:tl} = gsap.timeline({",
+      "const ${1:tl} = gsap.timeline({",
       "    scrollTrigger: {",
       "        trigger: \"${2:trigger}\",",
       "        start: \"${3:top} ${4:center}\",",
@@ -25,7 +25,7 @@
     "prefix": "gsttcb",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
-      "let ${1:tl} = gsap.timeline({",
+      "const ${1:tl} = gsap.timeline({",
       "    scrollTrigger: {",
       "        trigger: \"${2:trigger}\",",
       "        start: \"${3:top} ${4:center}\",",
