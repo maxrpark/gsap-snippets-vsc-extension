@@ -1,0 +1,37 @@
+{
+  "gsap inertia basic": {
+    "prefix": "ginertia",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(\"${1:selector}\", {",
+      "  duration: ${2:2},",
+      "  inertia: {",
+      "    x: ${3:100},",
+      "    y: ${4:200},",
+      "    velocity: { x: ${5:50}, y: ${6:100} }",
+      "  },",
+      "  ease: \"${7:none}\"",
+      "});"
+    ],
+    "description": "Animate with inertia using velocity and end values"
+  },
+  "draggable with inertia": {
+    "prefix": "gdraginertia",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "Draggable.create(\"${1:.box}\", {",
+      "  type: \"x,y\",",
+      "  edgeResistance: 0.65,",
+      "  inertia: true,",
+      "  bounds: \"${2:body}\",",
+      "  onPress() {",
+      "    console.log(\"pressed\");",
+      "  },",
+      "  onRelease() {",
+      "    console.log(\"released\");",
+      "  }",
+      "});"
+    ],
+    "description": "Make element draggable with inertia and bounds"
+  }
+}

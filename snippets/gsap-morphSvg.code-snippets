@@ -1,0 +1,40 @@
+{
+  "gsap morphsvg basic": {
+    "prefix": "gmorph",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(\"${1:#sourcePath}\", {",
+      "  duration: ${2:2},",
+      "  morphSVG: \"${3:#targetPath}\",",
+      "  ease: \"${4:power1.inOut}\"",
+      "});"
+    ],
+    "description": "Basic MorphSVG tween from one path to another"
+  },
+  "gsap morphsvg origin": {
+    "prefix": "gmorpho",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(\"${1:#sourcePath}\", {",
+      "  duration: ${2:2},",
+      "  morphSVG: {",
+      "    shape: \"${3:#targetPath}\",",
+      "    shapeIndex: ${4:0},",
+      "    origin: \"${5:center center}\"",
+      "  },",
+      "  ease: \"${6:power1.inOut}\"",
+      "});"
+    ],
+    "description": "MorphSVG tween with shapeIndex and origin options"
+  },
+  "gsap morphsvg timeline": {
+    "prefix": "gmorphtl",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const tl = gsap.timeline({ defaults: { duration: ${1:1}, ease: \"${2:power1.inOut}\" } });",
+      "tl.to(\"${3:#path1}\", { morphSVG: \"${4:#path2}\" })",
+      "  .to(\"${5:#path2}\", { morphSVG: \"${6:#path3}\" });"
+    ],
+    "description": "Timeline with multiple MorphSVG tweens"
+  }
+}

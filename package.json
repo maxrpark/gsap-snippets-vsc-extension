@@ -26,6 +26,10 @@
       },
       {
         "language": "",
+        "path": "./snippets/gsap-drawSVG.code-snippets"
+      },
+      {
+        "language": "",
         "path": "./snippets/gsap-imports.code-snippets"
       },
       {

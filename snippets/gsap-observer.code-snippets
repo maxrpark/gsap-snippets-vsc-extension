@@ -6,9 +6,12 @@
       "Observer.create({",
       "  target: ${1:window},",
       "  type: \"${2:wheel,touch}\",",
-      "  onChange: (self) =>  {" 
-          " console.log(\"velocity:\", self.velocityX, self.velocityY, \"delta:\", self.deltaX, self.deltaY, \"target element:\", self.target, \"last event:\", self.event);" 
-      "     }"
+      "  onChange: (self) => {",
+      "    console.log(\"velocity:\", self.velocityX, self.velocityY,",
+      "      \"delta:\", self.deltaX, self.deltaY,",
+      "      \"target element:\", self.target,",
+      "      \"last event:\", self.event);",
+      "  }",
       "});"
     ],
     "description": "espond to \"scroll-like\" user behavior which could be a mouse wheel spin, finger swipe on a touch device, a scrollbar drag, or a pointer press & drag...and of course you need directional data and velocity. No problem!"
@@ -20,32 +23,33 @@
       "Observer.create({",
       "  target: ${1:window},",
       "  type: \"${2:wheel,touch}\",",
-      "  onChange: (self) =>  {" 
-          " console.log(\"velocity:\", self.velocityX, self.velocityY, \"delta:\", self.deltaX, self.deltaY, \"target element:\", self.target, \"last event:\", self.event);" 
-      "     },"
-      "   // onDown: () => {},"
-      "   // onUp: () => {},"
-      "   // onLeft: () => {},"
-      "   // onRight: () => {},"
-      "   // onDrag: () => {},"
-      "   // onDragStart: () => {},"
-      "   // onDragEnd: () => {},"
-      "   // onHover: () => {},"
-      "   // onHoverEnd: () => {},"
-      "   // onToggleY: () => {},"
-      "   // onToggleX: () => {},"
-      "   // onChangeX: () => {},"
-      "   // onChangeY: () => {},"
-      "   // onClick: () => {},"
-      "   // onPress: () => {},"
-      "   // onRelease: () => {},"
-      "   // onMove: () => {},"
-      "   // onWheel: () => {},"
-      "   // onStop: () => {},"
+      "  onChange: (self) => {",
+      "    console.log(\"velocity:\", self.velocityX, self.velocityY,",
+      "      \"delta:\", self.deltaX, self.deltaY,",
+      "      \"target:\", self.target,",
+      "      \"event:\", self.event);",
+      "  },",
+      "  // onDown: () => {},",
+      "  // onUp: () => {},",
+      "  // onLeft: () => {},",
+      "  // onRight: () => {},",
+      "  // onDrag: () => {},",
+      "  // onDragStart: () => {},",
+      "  // onDragEnd: () => {},",
+      "  // onHover: () => {},",
+      "  // onHoverEnd: () => {},",
+      "  // onToggleY: () => {},",
+      "  // onToggleX: () => {},",
+      "  // onChangeX: () => {},",
+      "  // onChangeY: () => {},",
+      "  // onClick: () => {},",
+      "  // onPress: () => {},",
+      "  // onRelease: () => {},",
+      "  // onMove: () => {},",
+      "  // onWheel: () => {},",
+      "  // onStop: () => {},",
       "});"
-
     ],
     "description": "espond to \"scroll-like\" user behavior which could be a mouse wheel spin, finger swipe on a touch device, a scrollbar drag, or a pointer press & drag...and of course you need directional data and velocity. No problem!"
-  },
-},
-
+  }
+}

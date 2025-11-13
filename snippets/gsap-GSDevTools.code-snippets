@@ -1,0 +1,54 @@
+{
+  "gsdevtools create": {
+    "prefix": "ggdev",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const devTools = GSDevTools.create({",
+      "  animation: ${1:myTimeline}, // String | Animation",
+      "  container: \"${2:#devTools}\", // String | Element",
+      "  css: ${3:{ width: '50%', bottom: '30px' }}, // Object | String",
+      "  globalSync: ${4:false}, // Boolean",
+      "  hideGlobalTimeline: ${5:false}, // Boolean",
+      "  id: \"${6:devtools1}\", // String",
+      "  inTime: ${7:0}, // Number | String",
+      "  keyboard: ${8:true}, // Boolean",
+      "  loop: ${9:false}, // Boolean",
+      "  minimal: ${10:false}, // Boolean",
+      "  outTime: ${11:0}, // Number | String",
+      "  paused: ${12:false}, // Boolean",
+      "  persist: ${13:true}, // Boolean",
+      "  timeScale: ${14:1}, // Number",
+      "  visibility: \"${15:auto}\" // String ('auto', 'visible', etc.)",
+      "});"
+    ],
+    "description": "Create GSDevTools instance with official config options"
+  },
+
+  "gsdevtools controls": {
+    "prefix": "ggdevctl",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "// Control GSDevTools instance playback",
+      "devTools.play();",
+      "devTools.pause();",
+      "devTools.reverse();",
+      "devTools.seek(${1:0}); // Seek to time (seconds)",
+      "devTools.timeScale(${2:1}); // Set playback speed"
+    ],
+    "description": "Control GSDevTools playback and timeline"
+  },
+  "gsdevtools timeline": {
+    "prefix": "ggdevtl",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const tl = gsap.timeline();",
+      "// Add tweens to the timeline...",
+      "",
+      "const devTools = GSDevTools.create({",
+      "  animation: tl,",
+      "  live: true // Update in real-time",
+      "});"
+    ],
+    "description": "Create GSDevTools controlling a timeline"
+  }
+}

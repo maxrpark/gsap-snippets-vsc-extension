@@ -1,0 +1,29 @@
+{
+  "gsap text plugin": {
+    "prefix": "gtxt",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(\"${1:selector}\", {",
+      "  duration: ${2:2},",
+      "  text: \"${3:This is the new text}\",",
+      "  ease: \"${4:none}\"",
+      "});"
+    ],
+    "description": "Tween plain text content using TextPlugin"
+  },
+  "gsap text plugin advanced": {
+    "prefix": "gtxta",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(\"${1:selector}\", {",
+      "  duration: ${2:1},",
+      "  text: {",
+      "    value: \"${3:Your new text}\",",
+      "    newClass: \"${4:class2}\",",
+      "    delimiter: \"${5: }\"",
+      "  }",
+      "});"
+    ],
+    "description": "Tween text with advanced options like class and delimiter"
+  }
+}

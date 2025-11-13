@@ -1,0 +1,37 @@
+{
+  "splitText basic animation": {
+    "prefix": "gsplit",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const split = new SplitText(\"${1:selector}\", { type: \"${2:chars,words,lines}\" });",
+      "gsap.from(split.${3:chars}, {",
+      "  duration: ${4:0.6},",
+      "  opacity: 0,",
+      "  y: ${5:20},",
+      "  stagger: ${6:0.05}",
+      "});"
+    ],
+    "description": "Split text into characters, words, or lines and animate using gsap.from"
+  },
+  "splitText timeline animation": {
+    "prefix": "gsplittl",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const split = new SplitText(\"${1:selector}\", { type: \"${2:chars,words,lines}\" });",
+      "const ${3:tl} = gsap.timeline();",
+      "${3:tl}.from(split.${4:chars}, {",
+      "  opacity: 0,",
+      "  y: ${5:20},",
+      "  duration: ${6:0.6},",
+      "  stagger: ${7:0.05}",
+      "});"
+    ],
+    "description": "Split text and animate using a GSAP timeline"
+  },
+  "splitText revert": {
+    "prefix": "gsplitrev",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": ["split.revert();"],
+    "description": "Revert SplitText to original state"
+  }
+}

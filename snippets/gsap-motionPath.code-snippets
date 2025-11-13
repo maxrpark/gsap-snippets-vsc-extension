@@ -1,0 +1,40 @@
+{
+  "gsap motionPath basic": {
+    "prefix": "gmotion",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(\"${1:#element}\", {",
+      "  duration: ${2:2},",
+      "  motionPath: \"${3:#path}\"",
+      "});"
+    ],
+    "description": "Animate element along a motion path (basic)"
+  },
+  "gsap motionPath options": {
+    "prefix": "gmotionopt",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(\"${1:#element}\", {",
+      "  duration: ${2:3},",
+      "  motionPath: {",
+      "    path: \"${3:#path}\",",
+      "    align: \"${4:#path}\",",
+      "    autoRotate: ${5:true},",
+      "    alignOrigin: [${6:0.5}, ${7:0.5}]",
+      "  },",
+      "  ease: \"${8:power1.inOut}\"",
+      "});"
+    ],
+    "description": "Motion path tween with alignment, autoRotate, and origin"
+  },
+  "gsap motionPath timeline": {
+    "prefix": "gmotiontl",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const tl = gsap.timeline({ defaults: { duration: ${1:1}, ease: \"${2:power1.inOut}\" } });",
+      "tl.to(\"${3:#element}\", { motionPath: \"${4:#path1}\" })",
+      "  .to(\"${5:#element}\", { motionPath: \"${6:#path2}\", autoRotate: ${7:true} });"
+    ],
+    "description": "Timeline with multiple motionPath tweens"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scrollSmoother create": {
+    "prefix": "gssmooth",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const smoother = ScrollSmoother.create({",
+      "  content: \"${1:#smooth-content}\",",
+      "  wrapper: \"${2:#smooth-wrapper}\",",
+      "  smooth: ${3:1.2},",
+      "  effects: ${4:true},",
+      "  normalizeScroll: ${5:true},",
+      "  ignoreMobileResize: ${6:true},",
+      "  preventDefault: ${7:true}",
+      "});"
+    ],
+    "description": "Initialize ScrollSmoother with basic options"
+  },
+  "scrollSmoother refresh": {
+    "prefix": "gssmoothr",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": ["ScrollSmoother.get()?.refresh();"],
+    "description": "Refresh ScrollSmoother instance (e.g. after content change)"
+  },
+  "scrollSmoother kill": {
+    "prefix": "gssmoothk",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": ["ScrollSmoother.get()?.kill();"],
+    "description": "Destroy ScrollSmoother instance"
+  }
+}

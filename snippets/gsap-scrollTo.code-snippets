@@ -1,0 +1,29 @@
+{
+  "gsap scrollTo position": {
+    "prefix": "gscroll",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(window, {",
+      "  duration: ${1:1},",
+      "  scrollTo: ${2:500},",
+      "  ease: \"${3:power1.inOut}\"",
+      "});"
+    ],
+    "description": "Scroll window to a specific Y pixel position"
+  },
+  "gsap scrollTo element": {
+    "prefix": "gscrollEl",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(window, {",
+      "  duration: ${1:1},",
+      "  scrollTo: {",
+      "    y: \"${2:#targetElement}\",",
+      "    offsetY: ${3:0}",
+      "  },",
+      "  ease: \"${4:power1.inOut}\"",
+      "});"
+    ],
+    "description": "Scroll smoothly to a DOM element with optional offset"
+  }
+}

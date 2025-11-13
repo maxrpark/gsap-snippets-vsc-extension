@@ -1,0 +1,44 @@
+{
+  "gsap physics2d basic": {
+    "prefix": "gphys2d",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(\"${1:#element}\", {",
+      "  duration: ${2:3},",
+      "  physics2D: {",
+      "    velocity: ${3:300},",
+      "    angle: ${4:60},",
+      "  },",
+      "  ease: \"${5:power1.out}\"",
+      "});"
+    ],
+    "description": "Physics2D tween with velocity and angle"
+  },
+  "gsap physics2d gravity friction": {
+    "prefix": "gphys2dGF",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "gsap.to(\"${1:#element}\", {",
+      "  duration: ${2:5},",
+      "  physics2D: {",
+      "    velocity: ${3:200},",
+      "    angle: ${4:45},",
+      "    gravity: ${5:300},",
+      "    friction: ${6:0.2}",
+      "  },",
+      "  ease: \"${7:power1.out}\"",
+      "});"
+    ],
+    "description": "Physics2D tween with gravity and friction"
+  },
+  "gsap physics2d timeline": {
+    "prefix": "gphys2dtl",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const tl = gsap.timeline({ defaults: { duration: ${1:2}, ease: \"${2:power1.out}\" } });",
+      "tl.to(\"${3:#element}\", { physics2D: { velocity: ${4:150}, angle: ${5:30} } })",
+      "  .to(\"${6:#element}\", { physics2D: { velocity: ${7:100}, angle: ${8:60} } });"
+    ],
+    "description": "Timeline with multiple Physics2D tweens"
+  }
+}
