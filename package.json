@@ -2,7 +2,7 @@
   "name": "gsap-greensock-snippets",
   "displayName": "Gsap GreenSock Snippets",
   "description": "Quick snippets for GreenSock",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "publisher": "MaxCode",
   "icon": "images/logo.png",
   "engines": {
@@ -67,6 +67,46 @@
       {
         "language": "",
         "path": "./snippets/gsap-use-gsap.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-GSDevTools.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-scrollTo.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-scrollSmother.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-splitText.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-textPlugin.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-scrambleText.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-motionPath.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-morphSvg.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-physics2D.code-snippets"
+      },
+      {
+        "language": "",
+        "path": "./snippets/gsap-inertia.code-snippets"
       }
     ]
   },

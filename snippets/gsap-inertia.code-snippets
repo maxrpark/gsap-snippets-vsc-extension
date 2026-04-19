@@ -11,12 +11,12 @@
       "    velocity: { x: ${5:50}, y: ${6:100} }",
       "  },",
       "  ease: \"${7:none}\"",
-      "});"
+      "});",
     ],
-    "description": "Animate with inertia using velocity and end values"
+    "description": "Animate with inertia using velocity and end values",
   },
   "draggable with inertia": {
-    "prefix": "gdraginertia",
+    "prefix": "gdragertia",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "Draggable.create(\"${1:.box}\", {",
@@ -30,8 +30,8 @@
       "  onRelease() {",
       "    console.log(\"released\");",
       "  }",
-      "});"
+      "});",
     ],
-    "description": "Make element draggable with inertia and bounds"
-  }
+    "description": "Make element draggable with inertia and bounds",
+  },
 }

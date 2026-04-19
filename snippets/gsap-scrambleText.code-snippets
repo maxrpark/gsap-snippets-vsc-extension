@@ -7,12 +7,12 @@
       "  duration: ${2:2},",
       "  scrambleText: \"${3:Scrambling now...}\",",
       "  ease: \"${4:none}\"",
-      "});"
+      "});",
     ],
-    "description": "Scramble text to a final value using ScrambleTextPlugin"
+    "description": "Scramble text to a final value using ScrambleTextPlugin",
   },
   "gsap scramble text advanced": {
-    "prefix": "gscramblea",
+    "prefix": "gscrambleadv",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "gsap.to(\"${1:selector}\", {",
@@ -24,8 +24,8 @@
       "    speed: ${6:0.3}",
       "  },",
       "  ease: \"${7:none}\"",
-      "});"
+      "});",
     ],
-    "description": "Scramble text with custom characters and delay options"
-  }
+    "description": "Scramble text with custom characters and delay options",
+  },
 }

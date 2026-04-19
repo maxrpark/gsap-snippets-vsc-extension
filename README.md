@@ -69,18 +69,18 @@ The snippets are is inspired by [GreenSock's](https://greensock.com/) documentat
 | `gclamp`       | gsap.utils.clamp()       |
 | `gdistribute`  | gsap.utils.distribute()  |
 | `ginterpolate` | gsap.utils.interpolate() |
-| `gclamp`       | gsap.utils.clamp()       |
-| `gmapRange`    | gsap.utils.interpolate() |
+| `gmapRange`    | gsap.utils.mapRange()    |
 | `gnormalize`   | gsap.utils.normalize()   |
 | `gpipe`        | gsap.utils.pipe()        |
 | `grandomnum`   | gsap.utils.random()      |
 | `grandomarray` | gsap.utils.random([])    |
 | `gselector`    | gsap.utils.selector()    |
 | `gshuffle`     | gsap.utils.shuffle()     |
+| `gsnap`        | gsap.utils.snap()        |
 | `gsplitColor`  | gsap.utils.splitColor()  |
 | `gtoArray`     | gsap.utils.toArray()     |
 | `gunitize`     | gsap.utils.unitize()     |
-| `gwrap`        | gsap.utils.gwrap()       |
+| `gwrap`        | gsap.utils.wrap()        |
 | `gwrapYoyo`    | gsap.utils.wrapYoyo()    |
 
 ### GSAP Context
@@ -113,6 +113,90 @@ The snippets are is inspired by [GreenSock's](https://greensock.com/) documentat
 | ------- | ------------------------------------ |
 | `gob`   | create gsap observer                 |
 | `gobc`  | create gsap observer witch callbacks |
+
+### GSDevTools
+
+| Snippet    | Purpose                  |
+| ---------- | ------------------------ |
+| `gdev`     | Create GSDevTools        |
+| `ggdevctl` | GSDevTools with controls |
+| `ggdevtl`  | GSDevTools timeline      |
+
+### DrawSVG
+
+| Snippet     | Purpose                   |
+| ----------- | ------------------------- |
+| `gdrawsvg`  | DrawSVG basic animation   |
+| `gdrawsvgr` | DrawSVG with custom range |
+| `gdrawsvgc` | DrawSVG clear animation   |
+
+### ScrollTo
+
+| Snippet     | Purpose           |
+| ----------- | ----------------- |
+| `gscrollte` | ScrollTo element  |
+| `gscrolltp` | ScrollTo position |
+
+### ScrollSmoother
+
+| Snippet      | Purpose                |
+| ------------ | ---------------------- |
+| `gsmoother`  | Create ScrollSmoother  |
+| `gsmootherk` | ScrollSmoother kill    |
+| `gsmoother`  | ScrollSmoother refresh |
+
+### SplitText
+
+| Snippet     | Purpose                      |
+| ----------- | ---------------------------- |
+| `gsplit`    | SplitText basic animation    |
+| `gsplitrev` | SplitText revert             |
+| `gsplittl`  | SplitText timeline animation |
+
+### TextPlugin
+
+| Snippet  | Purpose               |
+| -------- | --------------------- |
+| `gtext`  | Text plugin animation |
+| `gtexta` | Text plugin advanced  |
+
+### ScrambleText
+
+| Snippet        | Purpose                |
+| -------------- | ---------------------- |
+| `gscramble`    | ScrambleText animation |
+| `gscrambleadv` | ScrambleText advanced  |
+
+### MotionPath
+
+| Snippet     | Purpose                 |
+| ----------- | ----------------------- |
+| `gmpath`    | MotionPath basic        |
+| `gmpatho`   | MotionPath with options |
+| `gmpathptl` | MotionPath timeline     |
+
+### MorphSVG
+
+| Snippet    | Purpose              |
+| ---------- | -------------------- |
+| `gmorph`   | MorphSVG basic       |
+| `gmorpho`  | MorphSVG with origin |
+| `gmorphpt` | MorphSVG timeline    |
+
+### Physics2D
+
+| Snippet       | Purpose                         |
+| ------------- | ------------------------------- |
+| `gphysics`    | Physics2D basic                 |
+| `gphysicsgf`  | Physics2D with gravity friction |
+| `gphysicsptl` | Physics2D timeline              |
+
+### Inertia
+
+| Snippet      | Purpose                |
+| ------------ | ---------------------- |
+| `ginertia`   | Inertia basic          |
+| `gdragertia` | Draggable with inertia |
 
 ### Imports and Register
 

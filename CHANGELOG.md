@@ -2,6 +2,10 @@
 
 All notable changes to the "GSAP GREENSOCK Snippets" extension will be documented in this file.
 
+## [1.0.9] - 2026-4-19
+
+- Updated read me with and added new snippets
+
 ## [1.0.8] - 2025-1-13
 
 - Added new snippets.

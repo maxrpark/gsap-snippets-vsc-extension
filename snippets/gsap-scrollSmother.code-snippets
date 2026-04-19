@@ -1,6 +1,6 @@
 {
   "scrollSmoother create": {
-    "prefix": "gssmooth",
+    "prefix": "gsmoother",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "const smoother = ScrollSmoother.create({",
@@ -11,20 +11,20 @@
       "  normalizeScroll: ${5:true},",
       "  ignoreMobileResize: ${6:true},",
       "  preventDefault: ${7:true}",
-      "});"
+      "});",
     ],
-    "description": "Initialize ScrollSmoother with basic options"
+    "description": "Initialize ScrollSmoother with basic options",
   },
   "scrollSmoother refresh": {
-    "prefix": "gssmoothr",
+    "prefix": "gsmoother",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["ScrollSmoother.get()?.refresh();"],
-    "description": "Refresh ScrollSmoother instance (e.g. after content change)"
+    "description": "Refresh ScrollSmoother instance (e.g. after content change)",
   },
   "scrollSmoother kill": {
-    "prefix": "gssmoothk",
+    "prefix": "gsmootherk",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": ["ScrollSmoother.get()?.kill();"],
-    "description": "Destroy ScrollSmoother instance"
-  }
+    "description": "Destroy ScrollSmoother instance",
+  },
 }

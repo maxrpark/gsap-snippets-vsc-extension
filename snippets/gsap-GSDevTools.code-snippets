@@ -1,6 +1,6 @@
 {
   "gsdevtools create": {
-    "prefix": "ggdev",
+    "prefix": "gdev",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "const devTools = GSDevTools.create({",
@@ -19,13 +19,13 @@
       "  persist: ${13:true}, // Boolean",
       "  timeScale: ${14:1}, // Number",
       "  visibility: \"${15:auto}\" // String ('auto', 'visible', etc.)",
-      "});"
+      "});",
     ],
-    "description": "Create GSDevTools instance with official config options"
+    "description": "Create GSDevTools instance with official config options",
   },
 
   "gsdevtools controls": {
-    "prefix": "ggdevctl",
+    "prefix": "gdevctl",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "// Control GSDevTools instance playback",
@@ -33,12 +33,12 @@
       "devTools.pause();",
       "devTools.reverse();",
       "devTools.seek(${1:0}); // Seek to time (seconds)",
-      "devTools.timeScale(${2:1}); // Set playback speed"
+      "devTools.timeScale(${2:1}); // Set playback speed",
     ],
-    "description": "Control GSDevTools playback and timeline"
+    "description": "Control GSDevTools playback and timeline",
   },
   "gsdevtools timeline": {
-    "prefix": "ggdevtl",
+    "prefix": "gdevtl",
     "scope": "typescript,typescriptreact,javascript,javascriptreact",
     "body": [
       "const tl = gsap.timeline();",
@@ -47,8 +47,8 @@
       "const devTools = GSDevTools.create({",
       "  animation: tl,",
       "  live: true // Update in real-time",
-      "});"
+      "});",
     ],
-    "description": "Create GSDevTools controlling a timeline"
-  }
+    "description": "Create GSDevTools controlling a timeline",
+  },
 }
